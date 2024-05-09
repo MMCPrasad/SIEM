@@ -20,6 +20,11 @@ public class PageController {
         return "dashbaord";
     }
 
+    @GetMapping("/login")
+    public String login() {
+        return "login";
+    }
+
 //    @GetMapping("/Dashboard-Branch")
 //    public String dashboard() {
 //        return "branch_dashbaord";
@@ -40,10 +45,6 @@ public class PageController {
 //        return "users";
 //    }
 //
-//    @GetMapping("/login")
-//    public String login() {
-//        return "login";
-//    }
 //
 //    @GetMapping("/index")
 //    public String viewDashboard(HttpSession session) {
